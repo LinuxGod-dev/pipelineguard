@@ -1,0 +1,3 @@
+-r requirements.txt
+pytest>=8.0
+moto[iam,sts,s3,secretsmanager]>=5.0

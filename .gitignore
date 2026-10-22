@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+report.md
+samples/cloudtrail/attack_events.jsonl

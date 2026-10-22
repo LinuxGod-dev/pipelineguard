@@ -1,0 +1,10 @@
+# Detection tuning. Replace with your real CI identities and egress ranges.
+allowed_subs:
+  - "repo:acme/app:ref:refs/heads/main"
+  - "repo:acme/app:environment:production"
+allowed_cidrs:
+  - "198.51.100.0/24"      # CI runner egress (documentation range in the lab)
+ci_roles: ["gh-*", "github-*"]
+secret_read_threshold: 3
+discovery_threshold: 4
+window_seconds: 60

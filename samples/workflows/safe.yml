@@ -1,0 +1,22 @@
+name: build-and-deploy
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
+    steps:
+      # SHAs below are placeholders for the demo; pin real ones with `remediate pin`.
+      - uses: actions/checkout@aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa # v4
+      - uses: aws-actions/configure-aws-credentials@bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb # v4
+        with:
+          role-to-assume: arn:aws:iam::123456789012:role/gh-readonly-role
+          aws-region: us-east-1
+      - run: aws s3 sync ./dist s3://acme-prod-artifacts
