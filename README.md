@@ -17,11 +17,11 @@
 
 ![Blast radius]
 (<img width="1366" height="768" alt="Screenshot (24)" src="https://github.com/user-attachments/assets/1bdb0c6d-856a-4d42-8066-89d7db5e9a84" />
-).
+)
 
 ![Detections]
-(<img width="1366" height="715" alt="Screenshot (22)" src="https://github.com/user-attachments/assets/5c0dfb49-1587-45c7-9269-31a33c2ede17" />
- )
+(<img width="1366" height="658" alt="Screenshot (25)" src="https://github.com/user-attachments/assets/6541eaca-fa69-4825-9fd7-27bc8b069d64" />
+)
 
 ## Why this exists
 
