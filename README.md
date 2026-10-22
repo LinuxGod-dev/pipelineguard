@@ -2,6 +2,20 @@
 
 **CI/CD-to-cloud identity blast-radius analyzer.** If this pipeline or machine identity is stolen, what can an attacker reach in the cloud, and would you notice?
 
+## What it does
+
+**Scan** → pipelines and OIDC trust policies for the weaknesses behind the 2026 supply chain attacks
+**Attack** → replays a stolen-pipeline-token attack against a lab
+**Detect** → CloudTrail detections mapped to MITRE ATT&CK
+**Respond** → dry-run-by-default fixes, including session quarantine
+
+![Workflow scan](<img width="1366" height="702" alt="Screenshot (21)" src="https://github.com/user-attachments/assets/9e5e180e-2145-4711-9356-0cf26f18e74d" /> <img width="1366" height="715" alt="Screenshot (22)" src="https://github.com/user-attachments/assets/846d66cf-39a8-441c-812a-011d08f4c5ea" />
+)
+
+![Blast radius](<img width="1366" height="768" alt="Screenshot (24)" src="https://github.com/user-attachments/assets/caa02822-3af8-4739-95e1-a1a86c4f590e" />).
+
+![Detections](<img width="1366" height="658" alt="Screenshot (25)" src="https://github.com/user-attachments/assets/bb632b78-e8f5-40b4-a629-92d9c8ea1003" />)
+
 ## Why this exists
 
 Identity is now the main way into cloud environments, and CI/CD is where those credentials get stolen. The Cloud Security Alliance's 2026 Top Threats report ranks inadequate IAM first, Mandiant's M-Trends 2026 names machine identities a primary cloud-breach vector, and 2026 supply chain campaigns (Trivy and Checkmarx in March, Megalodon in May, Miasma in June) went after CI/CD secrets and abused GitHub Actions OIDC to reach cloud accounts.
