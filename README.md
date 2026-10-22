@@ -9,7 +9,9 @@
 **Detect** → CloudTrail detections mapped to MITRE ATT&CK
 **Respond** → dry-run-by-default fixes, including session quarantine
 
-![Workflow scan](<img width="1366" height="702" alt="Screenshot (21)" src="https://github.com/user-attachments/assets/9e5e180e-2145-4711-9356-0cf26f18e74d" /> <img width="1366" height="715" alt="Screenshot (22)" src="https://github.com/user-attachments/assets/846d66cf-39a8-441c-812a-011d08f4c5ea" />
+![Workflow scan](<img width="1366" height="702" alt="Screenshot (21)" src="https://github.com/user-attachments/assets/9e5e180e-2145-4711-9356-0cf26f18e74d" /> 
+
+<img width="1366" height="715" alt="Screenshot (22)" src="https://github.com/user-attachments/assets/846d66cf-39a8-441c-812a-011d08f4c5ea" />
 )
 
 ![Blast radius](<img width="1366" height="768" alt="Screenshot (24)" src="https://github.com/user-attachments/assets/caa02822-3af8-4739-95e1-a1a86c4f590e" />).
