@@ -1,3 +1,4 @@
+![ci](https://github.com/LinuxGod-dev/pipelineguard/actions/workflows/ci.yml/badge.svg)
 # PipelineGuard
 
 **CI/CD-to-cloud identity blast-radius analyzer.** If this pipeline or machine identity is stolen, what can an attacker reach in the cloud, and would you notice?
@@ -72,3 +73,8 @@ python -m pipelineguard detect --events samples/cloudtrail/attack_events.jsonl -
 - Attack events are generated in CloudTrail's JSON schema by the simulator. For real accounts, feed actual CloudTrail logs to `detect`.
 - Blast-radius scores do not evaluate Deny statements, permission boundaries, SCPs or Condition blocks, so they are an upper bound.
 - GitHub Actions and AWS only. Azure and GCP are natural extensions.
+
+## Related projects
+- [CloudSentinel](https://github.com/LinuxGod-dev/cloudsentinel-): multi-cloud misconfiguration scanner
+- [cloud-privesc-finder](https://github.com/LinuxGod-dev/cloud-privesc-finder): AWS IAM privilege escalation paths
+- [PipelineGuard](https://github.com/LinuxGod-dev/pipelineguard): how pipeline credentials get stolen, detected and contained
