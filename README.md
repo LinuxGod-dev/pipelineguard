@@ -77,4 +77,3 @@ python -m pipelineguard detect --events samples/cloudtrail/attack_events.jsonl -
 ## Related projects
 - [CloudSentinel](https://github.com/LinuxGod-dev/cloudsentinel-): multi-cloud misconfiguration scanner
 - [cloud-privesc-finder](https://github.com/LinuxGod-dev/cloud-privesc-finder): AWS IAM privilege escalation paths
-- [PipelineGuard](https://github.com/LinuxGod-dev/pipelineguard): how pipeline credentials get stolen, detected and contained
